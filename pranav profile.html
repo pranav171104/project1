@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY PORTFOLIO</title>
+        <link rel="stylesheet" href="style1.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+        <body>
+            <section class="home">
+                    <div id="df">
+
+                        <a href="#" class="logo">Pranav.</a><br>
+                        <h1 style="padding-left: 24%;" ></h1>
+                        <nav class="navbar">
+                            <a href="#" class="act">HOME</a>
+                            <a href="#ab" class="act">ABOUT</a>
+                            <a href="#sk" class="act">SKILLS</a>
+                            <a href="#yy" class="act">MY WORK</a> 
+                            <a href="#cm" class="act">CONTACT</a> 
+                        </nav>
+                    </div>
+                        <h1 style="padding-top: 10%;"></h1>       
+                    <div class="home-content" id="ab">
+                        <h1>Hi, I'm Pranav S</h1><br>
+                        <h3>Engineering student</h3><br>
+                        <p>This is to present my first work based on 
+                            the html and css. It is based on the personal
+                            web page on the work related queries. you
+                            can follow me for more updates regarding my 
+                            work, and ping me if you need to get things done.
+                        if you need any queries kindly contact me,the details
+                    are given kindly do check it.</p><br><br>
+                            <div class="btn-box">
+                                <a href="#">Download CV</a>
+                                <a  href="#cm">Hire Me</a>
+                            </div>
+                    </div>
+                    <div class="icon">
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        
+                    </div>
+                   </section> 
+                   <div id="sk"class="skcet">
+                    <h1 class="t">What I am capable of..?</h1><br>
+                    <div class="i1">
+                        <a href="#"><i class='bx bxl-html5'></i></a>
+                        <a href="#"><i class='bx bxl-css3'></i></a>
+                        <a href="#"><i class='bx bxl-javascript'></i></a>
+                    </div>
+                    <div class="i2">
+                        <h1>Get in touch: </h1><br>
+                        <h2><a href="mailto:pranavdhanalakshmi2004@gmail.com" style="color: #00abf0;;"><i>pranavdhanalakshmi2004@gmail.com</i></a></h2>
+                    </div>
+                </div>
+                    <div class="sktt">
+                        <h1 id="yy" >MY CERTIFICATIONS</h1><br>
+                        <div class="i3">
+                            <img src="cf.jpg" alt="" height="400px" width="300px">
+                            <img src="cf4.jpg"height="400px" width="500px">
+                            <img src="cf3.jpg"height="400px" width="300px">
+                        </div><br><br><br>
+                        <div class="con1">
+                            <h1>How to Contact me?</h1><br>
+                            <form id="cm">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <textarea name="message" placeholder="Your message" required></textarea>
+                                <button type="submit">Send Message</button>
+                            </form>
+                        </div>
+
+                    </div>
+
+             
+            
+        </body>
+    
+</html>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body {
+    color: #ededed;
+}
+
+.active
+{
+    padding-left: 20px;
+}
+.logo{
+    font-size: 50px;
+    color:aliceblue;
+    text-decoration:none ;
+    font-weight: 600;
+}
+.navbar
+{
+    padding-top: 20px;
+}
+a.act{
+    font-size: 18px;
+    color:#ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 1s;
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    padding-left: 25px;
+    text-align: left;
+}
+a:hover {
+color:#00abf0;
+}
+#df
+{
+    display: flex;
+}
+.home{
+    height:100vh;
+   background:url('iiii.jpg') no-repeat;
+   background-size: cover;
+   background-position: center;
+    /* display:flex; */
+    align-items: center;
+    padding:0 10%
+
+}
+.home-content{
+    max-width :600px ;
+    
+}
+.home-content h1{
+    font-size:54px;
+    font weight:700;
+}
+.home-content h3{
+    font-size:32px;
+    font-weight:700;
+    color: #00abf0;
+}
+.home-content p {
+    font-size:16px;
+}
+.home-content .btn-box{ 
+    display:flex;
+    justify-content:space-between;
+    width: 345px;
+    height: 50px;
+}
+.btn-box a {
+    position:relative;
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background:#00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color:#081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing:1px;
+    z-index:1;
+    overflow:hidden;
+    transition: 1s;
+
+}
+.btn-box a:hover{
+    color:#00abf0;
+
+}
+.btn-box a:nth-child(2){
+    background:transparent;
+    color:#00abf0;
+
+}
+.btn-box a:nth-child(2):hover{
+    color:#081b29;
+}
+.btn-box a:nth-child(2)::before{
+    background:#00abf0;
+
+}
+.btn-box a::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 0%;
+    height:100%;
+    background:#081b29;
+    z-index:-1;
+    transition:.5s;
+     
+}
+.btn-box a:hover::before{
+    width: 100%;
+}
+.icon{
+    position: absolute;
+    bottom:40px;
+    width:200px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon a{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:40px;
+    height:40px;
+    background:transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color:#00abf0;
+    text-decoration: none;
+}
+.college{
+    height:100vh;
+     align-items: center;
+     padding:0 10%
+}
+.skcet{
+width: 1536px;
+height: 700px;
+background:url(ttm.jpeg) no-repeat;
+background-size: cover;
+background-position: center;
+}
+h1.t{
+    padding-left: 545px;
+    font-size: 53px;
+    font-weight: 540;
+    font-family:fantasy ;
+    padding-top: 55px;
+    color:#00abf0;
+}
+#bd{
+    position: absolute;
+    width:2000px;
+    display: flex;
+    height: 2000px;
+}
+.i1 {
+    position: absolute;
+    width:600px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-top: 4%;
+
+}
+.i1 a{
+    display:flex;
+    width:290px;
+    height:290px;
+    background:transparent;
+    font-size: 290px;
+    color:#00abf0;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-left: 30px;
+
+}
+.i2{
+    padding-top: 450px;
+    padding-left: 25px;
+    color:#00abf0;
+}
+.sktt{
+    background:url(blurred-background-close-up-colors-dark-green.jpg) no-repeat;
+    background-size: cover;
+   background-position: center;
+    height: 1000px;
+    width:1536;
+}
+.sktt h1{
+    padding-left: 545px;
+    font-size: 53px;
+    font-weight: 540;
+    font-family:fantasy ;
+    padding-top: 55px;
+    color:#00abf0;
+
+}
+.i3{
+    padding-left: 100px;
+    display: flex;
+    gap: 110px;
+    padding-top: 50px;
+    
+}
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+.con1 h1{
+    padding-top: 10px;
+}
+</style>
